@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TaskEase — Simple Task Manager</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <h1>TaskEase ✅</h1>
+      <p class="tagline">Stay organized, one task at a time.</p>
+    </header>
+
+    <section class="card">
+      <div class="task-input">
+        <input id="taskInput" type="text" placeholder="Enter a task..." />
+        <button id="addBtn" class="btn">Add</button>
+      </div>
+
+      <div class="controls">
+        <button id="clearCompleted" class="btn alt">Clear completed</button>
+        <button id="clearAll" class="btn alt">Clear all</button>
+      </div>
+
+      <ul id="taskList" class="task-list">
+        <!-- tasks go here -->
+      </ul>
+
+      <p id="emptyMsg" class="muted">No tasks yet. Add one above!</p>
+    </section>
+
+    <footer class="foot">
+      <small>Built by Teresa “Tess” Nyamatura Onchuru</small>
+    </footer>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
